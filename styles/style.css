@@ -9,7 +9,7 @@ html {
 }
 
 .page {
-  padding-top: 133px;
+  display: flex;
   inline-size: 1200px;
   block-size: 100%;
   margin: auto;
