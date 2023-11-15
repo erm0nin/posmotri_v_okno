@@ -197,7 +197,6 @@ ol {
   width: 19px;
   height: 19px;
   outline: 1px solid #fff;
-  display: inline-block;
   padding: 1px;
   display: flex;
   align-items: center;
@@ -215,18 +214,16 @@ ol {
   font-weight: 700;
   height: 34px;
   border: 1px solid #fff;
+  background-color: transparent;
 }
 
 .search-form__submit-button {
   width: 194px;
-  background: transparent;
-  border: 1px solid #fff;
   align-self: flex-end;
 }
 
 .more-button {
   width: 100%;
-  background-color: transparent;
 }
 
 .search-form__textfield:focus {
@@ -257,11 +254,6 @@ ol {
   text-decoration: underline;
 }
 
-button:focus {
-  outline: none;
-  appearance: none;
-}
-
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
   background-color: #fff;
@@ -270,7 +262,6 @@ button:focus {
 }
 
 .button:active {
-  border: 1px solid #fff;
   background: #545050;
 }
 
@@ -288,7 +279,6 @@ button:hover {
 
 button:focus {
   outline: none;
-  outline: 1px solid #fff;
 }
 
 button:focus-visible {
